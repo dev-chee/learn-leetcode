@@ -1,3 +1,5 @@
+mod algorithms;
+
 mod example_1;
 mod example_2;
 mod example_3;
@@ -7,3 +9,4 @@ mod example_6;
 mod example_7;
 mod example_8;
 mod example_9;
+mod example_10;
