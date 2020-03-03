@@ -3,3 +3,4 @@ mod example_2;
 mod example_3;
 mod example_4;
 mod example_5;
+mod example_6;
