@@ -1,6 +1,6 @@
 use std::mem;
 
-fn gcd(x: i32, y: i32) -> i32 {
+pub fn gcd(x: i32, y: i32) -> i32 {
     let mut x = x;
     let mut y = y;
 

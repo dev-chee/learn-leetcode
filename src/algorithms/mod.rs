@@ -3,3 +3,4 @@ mod selection_sort;
 mod insertion_sort;
 mod quick_sort;
 mod gcd;
+mod max_sub_array;
