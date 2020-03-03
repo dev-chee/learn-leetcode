@@ -24,6 +24,6 @@ mod tests {
     fn test() {
         let mut v = [31, 41, 59, 26, 41, 58];
         insertion_sort(&mut v);
-        assert_eq!([26, 31, 41, 41, 58, 59], v);
+        assert_eq!(v, [26, 31, 41, 41, 58, 59]);
     }
 }
