@@ -1,0 +1,12 @@
+[package]
+name = "learn-leetcode"
+version = "0.1.0"
+authors = ["Chee <dev_chee@outlook.com>"]
+edition = "2018"
+description = "Learn Rust in LeetCode"
+repository = "https://github.com/dev-chee/learn-leetcode.git"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
