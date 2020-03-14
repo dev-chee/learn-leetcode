@@ -39,9 +39,14 @@ pub fn find_max_sub_array(values: &[i32], low: usize, high: usize)
 
     let mid = low + (high - low) / 2;
 
-    let (left_low, left_high, left_sum) = find_max_sub_array(values, low, mid);
-    let (right_low, right_high, right_sum) = find_max_sub_array(values, mid + 1, high);
-    let (cross_low, cross_high, cross_sum) = find_max_crossing_sub_array(values, low, mid, high);
+    let (left_low, left_high, left_sum)
+        = find_max_sub_array(values, low, mid);
+
+    let (right_low, right_high, right_sum)
+        = find_max_sub_array(values, mid + 1, high);
+
+    let (cross_low, cross_high, cross_sum)
+        = find_max_crossing_sub_array(values, low, mid, high);
 
     if left_sum >= right_sum && left_sum >= cross_sum {
         (left_low, left_high, left_sum)
