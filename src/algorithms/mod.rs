@@ -6,3 +6,4 @@ mod quick_sort;
 mod gcd;
 mod max_sub_array;
 mod priority_heap;
+mod cut_rod;
